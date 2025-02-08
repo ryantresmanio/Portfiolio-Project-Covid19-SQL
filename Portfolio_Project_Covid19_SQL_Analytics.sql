@@ -192,11 +192,6 @@ where #temp_covid_deaths.location = RealValue.location
 and #temp_covid_deaths.date = RealValue.date
 
  
---  delete  from covid_deaths
--- where location ='north korea'
-
---delete  from covid_deaths
--- where location ='turkmenistan'
 
 
 ---- END TEMP TABLE ----
@@ -242,7 +237,7 @@ order by 4 desc
 
  -- cyprus got the highest with 77% of its population has gotten covid
  -- philippines got 3.6% of its population 
- -- yemen has got the lowest percentage with 0.03%
+ -- yemen got the lowest percentage with 0.03%
 
 
 
@@ -395,7 +390,7 @@ order by
 		TotalDeaths desc
 
 -- 6,990,824 total deaths using this
--- this continental value is more accurate than those in the csv file (calculated below)
+-- this continental value is much more accurate than than on the csv file (calculated below)
 
 
 
@@ -452,9 +447,6 @@ where cv.location = 'philippines'
 select cont, loc, da, pop, new_vac, TotalVaccinated 
 from cte_vac
 
-
---max vaccinated in the philippines as of 08-04-24 55,439,750???
---well, this is also the total in the excell
 
 
 
