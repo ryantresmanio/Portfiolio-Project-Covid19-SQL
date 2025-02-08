@@ -20,9 +20,11 @@ The dataset used in this project contains COVID-19 data , including cases, death
 
 ## Files in This Repository
 - `Portfolio_Project_Covid19_SQL_Analytics` - Contains all SQL queries used for data analysis.
-- `covid_deaths_cases` - Table that contains Covid-19 data
-- `vaccinations` - Table that contains Covid-19 data
 - `README.md` - Project documentation.
+
+## Dataset  
+The dataset used in this project can be accessed here:  
+[COVID-19 Data on Google Drive](https://drive.google.com/drive/folders/15GZ661HdK-UlaUswSL_ZibOUuP7se6uQ?usp=sharing)  
 
 ## Lessons Learned
 - Gained a better understanding of how to structure complex queries.
