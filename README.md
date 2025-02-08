@@ -9,7 +9,8 @@ The dataset used in this project contains COVID-19 data , including cases, death
 
 ## Skills & Concepts Covered
 - Data exploration and retrieval
-- Data cleaning, validation, and transformation
+- Basic data cleaning,
+- Data validation, and transformation
 - Aggregate and Window functions 
 - Joins and subqueries
 - Common Table Expressions (CTEs)
